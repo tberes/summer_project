@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: #233237;
+}
+
+header{
+    height: 150px;
+    background-color: #252120;
+}
+
+main{
+    background-color: #252120;
+}
+
+#title{
+    width: 150px;
+    background-color: #252120;
+    height: 1000px;
+}
+
+#menu,
+#cart,
+#logo{
+    width: 85px;
+    height: 85px;
+    margin: 20px;
+}
+
+#menu, #cart{
+    float: right;
+}
