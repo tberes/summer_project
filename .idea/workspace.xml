@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe12eebf-aef2-4380-8a0f-76ccaba324b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/site/menu_mobile.js" afterPath="$PROJECT_DIR$/js/site/menu_mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/desktop/site.css" afterPath="$PROJECT_DIR$/style/css/desktop/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/global/main.css" afterPath="$PROJECT_DIR$/style/css/global/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/mobile/site.css" afterPath="$PROJECT_DIR$/style/css/mobile/site.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -436,7 +431,7 @@
       <workItem from="1499089032969" duration="1311000" />
       <workItem from="1499171335477" duration="5022000" />
       <workItem from="1499238273143" duration="17931000" />
-      <workItem from="1499325390886" duration="7748000" />
+      <workItem from="1499325390886" duration="7803000" />
     </task>
     <task id="LOCAL-00001" summary="Adding background image">
       <created>1499089751181</created>
@@ -466,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499258769346</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bug and style fixes.">
+      <created>1499341300748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499341300748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32012000" />
+    <option name="totallyTimeSpent" value="32067000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -533,7 +535,8 @@
     <MESSAGE value="Creating: main.css, index.html, and the basic data structure." />
     <MESSAGE value="Created the index.html with all the css for mobile and desktop" />
     <MESSAGE value="Created the index.html and some all the css." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the index.html and some all the css." />
+    <MESSAGE value="Bug and style fixes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug and style fixes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
