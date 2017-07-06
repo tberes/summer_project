@@ -1,0 +1,14 @@
+@font-face {
+    font-family: LogoFont;
+    src: url(../../fonts/HardestStyleDemo.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #233237;
+}
+
+#site-title {
+    font-family: LogoFont;
+    color: #eadfca;
+}

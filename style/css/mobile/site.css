@@ -1,0 +1,71 @@
+#site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background-color: #252120;
+}
+
+#main-content {
+    background-image: url(../../images/site/background.png);
+    background-size: cover;
+    background-position: 30% 50%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    top: 64px;
+}
+
+#menu-wrapper {
+    background-color: #252120;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    top: 64px;
+    z-index: 90;
+    opacity: 0.9;
+    left: 100%;
+}
+
+#logo-wrapper {
+    float: left;
+}
+
+#site-title {
+    font-size: 30px;
+    display: block;
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+#icon-wrapper {
+    float: right;
+}
+
+#cart-btn,
+#menu-btn,
+#logo-img {
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+}
+
+#help_btn {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-color: #233237;
+    z-index: 100;
+    opacity: 0.8;
+    border-radius: 55px 55px 55px 55px;
+    /*background-image: url("");*/
+}
+
+#help_wrapper {
+    display: none;
+}
