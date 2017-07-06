@@ -12,3 +12,10 @@ body {
     font-family: LogoFont;
     color: #eadfca;
 }
+
+.menu-btns {
+    user-select: none;
+    color: #eadfca;
+    text-align: center;
+    font-size: 30px;
+}
