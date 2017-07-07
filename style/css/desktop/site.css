@@ -1,3 +1,7 @@
+@import url(menu.css);
+
+
+
 #site-header {
     position: fixed;
     top: 0;
@@ -84,8 +88,4 @@
     border-radius: 8px;
 
     z-index: 80;
-}
-
-.menu-btns {
-    cursor: pointer;
 }

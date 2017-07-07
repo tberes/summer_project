@@ -18,4 +18,6 @@ body {
     color: #eadfca;
     text-align: center;
     font-size: 30px;
+    height: calc(100% / 7);
+    line-height: 250%;
 }
