@@ -1,13 +1,13 @@
 
 $(document).ready(function(){
+    $("#main-content").load("pages/home.html");
+
     var windowWidth = $(window).width();
     if (windowWidth > 640) {
         desktopCartClick();
-        console.log("desktop");
     }
     else if(windowWidth <= 640) {
         menuClick();
         mobileCartClick();
-        console.log("mobile");
     }
 });
