@@ -29,6 +29,18 @@
     left: 100%;
 }
 
+#cart-wrapper {
+    background-color: #252120;
+    background-size: cover;
+    width: calc(100% - 65px);
+    position: fixed;
+    bottom: 0;
+    top: 64px;
+    z-index: 90;
+    opacity: 0.9;
+    left: 100%;
+}
+
 #logo-wrapper {
     float: left;
 }
