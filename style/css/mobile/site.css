@@ -3,8 +3,9 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 64px;
+    height: 62px;
     background-color: #252120;
+    border-bottom: 2px solid #233237;
 }
 
 #main-content {
@@ -71,13 +72,25 @@
     position: absolute;
     left: 5px;
     bottom: 5px;
-    background-color: #233237;
     z-index: 100;
-    opacity: 0.8;
     border-radius: 55px 55px 55px 55px;
-    /*background-image: url("");*/
+    background-image: url(../../images/icons/help.png);
+    background-size: cover;
 }
 
 #help_wrapper {
     display: none;
+}
+
+.content-bg-overlay {
+    background-color: #252120;
+    opacity: 0.8;
+    background-size: cover;
+    background-position-x: center;
+    position: fixed;
+    bottom: 0;
+    top: 64px;
+    right: 0;
+    left: 0;
+    margin: 0;
 }

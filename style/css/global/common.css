@@ -3,9 +3,22 @@
     color: #eadfca;
 }
 
+p {
+    text-align: justify;
+}
+
+h1 {
+    border-bottom: 1px solid #eadfca;
+    margin-bottom: 10px !important;
+}
+
 @font-face {
     font-family: LogoFont;
     src: url(../../fonts/HardestStyleDemo.ttf);
+}
+
+#site-title {
+    color: #b3f442;
 }
 
 body {
@@ -19,10 +32,34 @@ body {
 }
 
 .menu-btns {
+    display: block;
+    text-decoration: none;
     user-select: none;
     color: #eadfca;
     text-align: center;
     font-size: 30px;
     height: calc(100% / 7);
     line-height: 300%;
+}
+
+.menu-btns:focus {
+    outline: none;
+}
+
+#main-content {
+    overflow-y: auto;
+    background-image: url(../../images/site/background.png);
+}
+
+.page-content {
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

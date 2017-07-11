@@ -1,14 +1,13 @@
-h1 {
+#welcome-text {
     margin: auto;
     text-align: center;
     font-size: 55px;
-    margin-top: 20%;
     color: #eadfca;
     background-color: #252120;
     background: linear-gradient( to right, #233237, #252120, #233237);
 }
 
-p {
+#motto {
     margin: auto;
     text-align: center;
     font-size: 20px;
@@ -16,8 +15,4 @@ p {
     background-color: #252120;
     width: 40%;
     border-radius: 0 0 8px 8px;
-}
-
-#main-content {
-    background-image: url(../../images/site/background.png);
 }

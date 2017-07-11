@@ -1,8 +1,9 @@
+var windowWidth;
 
 $(document).ready(function(){
     $("#main-content").load("pages/home.html");
 
-    var windowWidth = $(window).width();
+    windowWidth = $(window).width();
     if (windowWidth > 640) {
         desktopCartClick();
     }

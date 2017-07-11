@@ -1,7 +1,3 @@
-@import url(menu.css);
-
-
-
 #site-header {
     position: fixed;
     top: 0;
@@ -16,11 +12,11 @@
     background-size: cover;
     background-position-x: center;
     border-radius: 8px;
-    width: calc(82% - 30px);
     position: fixed;
     bottom: 0;
     top: 100px;
     right: 0;
+    left: calc(18% + 20px);
     margin: 10px;
     margin-left: 0;
 }
@@ -100,4 +96,19 @@
     border-radius: 8px;
 
     z-index: 80;
+}
+
+.content-bg-overlay {
+    background-color: #252120;
+    opacity: 0.8;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    top: 100px;
+    right: 0;
+    left: calc(18% + 20px);
+    margin: 10px;
+    margin-left: 0;
 }
