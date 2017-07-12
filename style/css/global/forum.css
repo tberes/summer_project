@@ -1,4 +1,4 @@
-#text-field {
+#message-field {
     position: absolute;
     left: 24px;
     bottom: 24px;
@@ -8,17 +8,14 @@
     height: 37px;
     border-radius: 8px;
     background-color: #252120;
-}
-
-#text-field:focus {
-    outline: none;
+    text-indent: 8px;
 }
 
 #message-wrapper {
     position: absolute;
     left: 24px;
     right: 24px;
-    top: 98px;
+    top: 110px;
     bottom: 75px;
     overflow-y: auto;
     overflow-x: hidden;

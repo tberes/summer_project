@@ -1,4 +1,9 @@
-#text-field {
+#message-field {
     left: 65px;
     width: calc(100% - 159px);
+    bottom: 18px;
+}
+
+#send-btn {
+    bottom: 18px;
 }

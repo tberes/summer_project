@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $(".menu-btns").click(function () {
-        var pageName = $(this).attr("id");
+    $(window).bind('hashchange', function () {
+        var pageName = window.location.hash.slice(1);
 
         $("#main-content").load("pages/" + pageName + ".html");
 
@@ -9,5 +9,7 @@ $(document).ready(function() {
             phMenu = 0;
             phCart = 0;
         }
+
+        $('#main-content').animate({ scrollTop: 0 }, 'slow');
     });
 });

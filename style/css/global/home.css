@@ -16,3 +16,14 @@
     width: 40%;
     border-radius: 0 0 8px 8px;
 }
+
+#description {
+    background-color: #252120;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 5%;
+    width: 35%;
+    padding: 20px;
+    text-align: justify;
+    opacity: 0.9;
+}

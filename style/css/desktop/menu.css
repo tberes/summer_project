@@ -7,3 +7,9 @@
 .menu-btns span:hover {
     border-bottom-color: #eac67a;
 }
+
+@media only screen and (max-width: 940px) {
+    .menu-btns {
+        font-size: 20px;
+    }
+}
