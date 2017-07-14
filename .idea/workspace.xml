@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe12eebf-aef2-4380-8a0f-76ccaba324b1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_eadfca_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/images/shop/skateboard4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jQuery-UI/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,20 +34,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+            <state relative-caret-position="87">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/css/desktop/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="385">
               <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
               <folding />
             </state>
@@ -50,8 +67,8 @@
       <file leaf-file-name="help.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/site/help.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -80,7 +97,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ajax" />
+        <entry key="$PROJECT_DIR$" value="new" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -136,11 +153,11 @@
         <option value="$PROJECT_DIR$/js/site/cartHandler.js" />
         <option value="$PROJECT_DIR$/js/site/desktop/cart.js" />
         <option value="$PROJECT_DIR$/js/site/mobile/cart.js" />
-        <option value="$PROJECT_DIR$/js/site/help.js" />
-        <option value="$PROJECT_DIR$/style/css/global/common.css" />
         <option value="$PROJECT_DIR$/style/css/mobile/site.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/css/desktop/site.css" />
+        <option value="$PROJECT_DIR$/style/css/global/common.css" />
+        <option value="$PROJECT_DIR$/js/site/help.js" />
       </list>
     </option>
   </component>
@@ -568,7 +585,7 @@
       <workItem from="1499843296387" duration="19495000" />
       <workItem from="1499867963516" duration="136000" />
       <workItem from="1499929482792" duration="24744000" />
-      <workItem from="1500015636389" duration="3442000" />
+      <workItem from="1500015636389" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="Adding background image">
       <created>1499089751181</created>
@@ -675,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500019553535</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Also added a lot of things.">
+      <created>1500019561326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1500019561326</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140587000" />
+    <option name="totallyTimeSpent" value="142843000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1003,6 +1027,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/css/mobile/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/css/global/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -1019,34 +1051,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/css/desktop/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/site/help.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/css/mobile/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/css/desktop/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="112" column="17" lean-forward="false" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        <state relative-caret-position="87">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding />
         </state>
       </provider>
