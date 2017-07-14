@@ -20,7 +20,7 @@
 #menu-wrapper {
     background-color: #252120;
     background-size: cover;
-    width: 100%;
+    width: calc(100% - 65px);
     position: fixed;
     bottom: 0;
     top: 64px;

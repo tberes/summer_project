@@ -1,0 +1,17 @@
+.menu-btns span {
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    transition: 0.5s ease;
+}
+
+.menu-btns span:hover {
+    border-bottom-color: #eac67a;
+}
+
+.menu-btns {
+    border-radius: 8px;
+}
+
+.menu-btns:hover {
+    background: radial-gradient(#233237 30%, #252120 60%);
+}
