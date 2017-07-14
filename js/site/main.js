@@ -1,4 +1,5 @@
 var windowWidth;
+var userName = "Anonymus";
 
 $(document).ready(function(){
     var pageName = window.location.hash.slice(1);
@@ -16,4 +17,10 @@ $(document).ready(function(){
         menuClick();
         mobileCartClick();
     }
+
+    $(window).resize(function(){
+        windowWidth = $(window).width();
+    });
+
+    updateCartIcon();
 });

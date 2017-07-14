@@ -33,6 +33,7 @@
     line-height: 37px;
     border-radius: 8px;
     cursor: pointer;
+    user-select: none;
 }
 
 .message {
@@ -40,8 +41,12 @@
     border-radius: 8px;
     padding: 10px;
     border: 1px solid #252120;
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
+}
+
+.just-added {
+    background-color: #344349;
 }
 
 .message p {

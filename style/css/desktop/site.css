@@ -42,7 +42,6 @@
     bottom: 0;
     top: 100px;
     z-index: 90;
-    opacity: 0.9;
     left: 100%;
 }
 
@@ -86,6 +85,19 @@
     display: none;
 }
 
+#help-btn-desktop {
+    background-color: #233237;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
 #help_wrapper {
     background-color: #252120;
     position: fixed;
@@ -96,6 +108,35 @@
     border-radius: 8px;
 
     z-index: 80;
+
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-height: 850px) {
+    #help_wrapper {
+        font-size: 15px;
+    }
+
+    #help-btn-desktop {
+        margin-top: 5px;
+        padding: 3px;
+    }
+}
+
+#help-text {
+    position: fixed;
+    background-color: #233237;
+    border-radius: 8px;
+    border: 1px solid black;
+    z-index: 100;
+    top: 150px;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    padding: 10px;
+    display: none;
 }
 
 .content-bg-overlay {

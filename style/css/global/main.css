@@ -7,6 +7,7 @@
 @import url(tricks.css);
 @import url(contacts.css);
 @import url(shop.css);
+@import url(shopping-cart.css);
 
 
 /* Mobile */
@@ -14,6 +15,7 @@
 @import url(../../css/mobile/forum.css) only screen and (max-width: 640px);
 @import url(../../css/mobile/contacts.css) only screen and (max-width: 640px);
 @import url(../../css/mobile/home.css) only screen and (max-width: 640px);
+@import url(../../css/mobile/shopping-cart.css) only screen and (max-width: 640px);
 
 /* Desktop */
 @import url(../../css/desktop/site.css) only screen and (min-width: 640px);

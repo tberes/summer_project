@@ -47,6 +47,8 @@
     color: #252120;
     font-weight: bold;
     margin: auto;
+    user-select: none;
+    cursor: pointer;
 }
 
 .product-price {
