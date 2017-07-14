@@ -1,0 +1,19 @@
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+a:focus {
+    outline: none;
+}
+
+iframe {
+    float: right;
+}
+
+/*#tabs {
+    margin-top: 10px;
+}*/

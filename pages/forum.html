@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        listMessages();
+
+        $("#send-btn").click(function(){
+            sendMessage();
+        });
+    });
+</script>
+
+<div class="content-bg-overlay"></div>
+
+<div class="page-content">
+    <h1>Forum</h1>
+    <div id="message-wrapper">
+
+    </div>
+
+    <input type="text" id="message-field">
+    <div id="send-btn">Send</div>
+</div>

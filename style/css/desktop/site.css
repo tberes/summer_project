@@ -1,7 +1,3 @@
-@import url(menu.css);
-
-
-
 #site-header {
     position: fixed;
     top: 0;
@@ -16,11 +12,11 @@
     background-size: cover;
     background-position-x: center;
     border-radius: 8px;
-    width: calc(82% - 30px);
     position: fixed;
     bottom: 0;
     top: 100px;
     right: 0;
+    left: calc(18% + 20px);
     margin: 10px;
     margin-left: 0;
 }
@@ -46,7 +42,6 @@
     bottom: 0;
     top: 100px;
     z-index: 90;
-    opacity: 0.9;
     left: 100%;
 }
 
@@ -70,9 +65,9 @@
 }
 
 #logo-img {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
 }
 
 #cart-btn {
@@ -90,6 +85,19 @@
     display: none;
 }
 
+#help-btn-desktop {
+    background-color: #233237;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
 #help_wrapper {
     background-color: #252120;
     position: fixed;
@@ -100,4 +108,48 @@
     border-radius: 8px;
 
     z-index: 80;
+
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-height: 850px) {
+    #help_wrapper {
+        font-size: 15px;
+    }
+
+    #help-btn-desktop {
+        margin-top: 5px;
+        padding: 3px;
+    }
+}
+
+#help-text {
+    position: fixed;
+    background-color: #233237;
+    border-radius: 8px;
+    border: 1px solid black;
+    z-index: 100;
+    top: 150px;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    padding: 10px;
+    display: none;
+}
+
+.content-bg-overlay {
+    background-color: #252120;
+    opacity: 0.8;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    top: 100px;
+    right: 0;
+    left: calc(18% + 20px);
+    margin: 10px;
+    margin-left: 0;
 }

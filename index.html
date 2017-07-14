@@ -9,46 +9,58 @@
 
 		<link rel="stylesheet" type="text/css" href="style/css/global/main.css">
 
+		<link rel="stylesheet" type="text/css" href="js/jQuery-UI/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="js/jQuery-UI/jquery-ui.structure.min.css">
+		<link rel="stylesheet" type="text/css" href="js/jQuery-UI/jquery-ui.theme.min.css">
+
 		<script src="js/jQuery/jquery-3.2.1.js"></script>
+		<script src="js/jQuery-UI/jquery-ui.js"></script>
+
 		<script src="js/site/main.js"></script>
-		<script src="js/site/ajaxHandler.js"></script>
+		<script src="js/site/messageHandler.js"></script>
+		<script src="js/site/cartHandler.js"></script>
+		<script src="js/site/menuHandler.js"></script>
 		<script src="js/site/mobile/menu.js"></script>
 		<script src="js/site/mobile/cart.js"></script>
 		<script src="js/site/desktop/cart.js"></script>
+		<script src="js/site/help.js"></script>
 	</head>
 	
 	<body>
 		<div id="place-holder"></div>
 		<div id="site-header">
-			<div id="logo-wrapper">
-				<img id="logo-img" src=""/>
+			<div id="logo-wrapper" onclick="window.location.href = 'index.html'">
+				<img id="logo-img" src="style/images/site/logo.png"/>
 				<span id="site-title">Skateboarding</span>
 			</div>
 			<div id="icon-wrapper">
 				<img id="cart-btn" src="style/images/icons/shopping-cart.png"/>
 				<img id="menu-btn" src="style/images/icons/menu.png"/>
+				<p id="product-counter">0</p>
 			</div>
 		</div>
 
 		<div id="menu-wrapper">
-			<div class="menu-btns"><span>Home</span></div>
-			<div class="menu-btns"><span>Skateboards</span></div>
-			<div class="menu-btns"><span>Tricks</span></div>
-			<div class="menu-btns"><span>Shop</span></div>
-			<div class="menu-btns"><span>News</span></div>
-			<div class="menu-btns"><span>Forum</span></div>
-			<div class="menu-btns"><span>Contacts</span></div>
+			<a href="#home" class="menu-btns"><span>Home</span></a>
+			<a href="#skateboards" class="menu-btns"><span>Skateboards</span></a>
+			<a href="#tricks" class="menu-btns"><span>Tricks</span></a>
+			<a href="#shop" class="menu-btns"><span>Shop</span></a>
+			<a href="#forum" class="menu-btns"><span>Forum</span></a>
+			<a href="#contacts" class="menu-btns"><span>Contacts</span></a>
 		</div>
 
-		<div id="cart-wrapper"></div>
-
+		<div id="cart-wrapper">
+		</div>
 		<div id="help_wrapper">
-
+			Need any help? Just click here!<br/>
+			<div id="help-btn-desktop">Help!</div>
 		</div>
 		<div id="help_btn"></div>
 
 		<div id="main-content">
 
 		</div>
+
+		<div id="help-text">Sorry, this content is not yet available.</div>
 	</body>
 </html>

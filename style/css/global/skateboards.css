@@ -1,0 +1,13 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
+}
+
+h3 {
+    display: block;
+}
+
+h3:focus {
+    outline: none;
+}
