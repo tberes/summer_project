@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe12eebf-aef2-4380-8a0f-76ccaba324b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/site/cartHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/site/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/site/messageHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/css/global/shopping-cart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/css/mobile/shopping-cart.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/site/desktop/cart.js" afterPath="$PROJECT_DIR$/js/site/desktop/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/site/main.js" afterPath="$PROJECT_DIR$/js/site/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/site/mobile/cart.js" afterPath="$PROJECT_DIR$/js/site/mobile/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/forum.html" afterPath="$PROJECT_DIR$/pages/forum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/shop.html" afterPath="$PROJECT_DIR$/pages/shop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/desktop/site.css" afterPath="$PROJECT_DIR$/style/css/desktop/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/global/forum.css" afterPath="$PROJECT_DIR$/style/css/global/forum.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/global/main.css" afterPath="$PROJECT_DIR$/style/css/global/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/global/shop.css" afterPath="$PROJECT_DIR$/style/css/global/shop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/mobile/site.css" afterPath="$PROJECT_DIR$/style/css/mobile/site.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -584,7 +568,7 @@
       <workItem from="1499843296387" duration="19495000" />
       <workItem from="1499867963516" duration="136000" />
       <workItem from="1499929482792" duration="24744000" />
-      <workItem from="1500015636389" duration="3431000" />
+      <workItem from="1500015636389" duration="3442000" />
     </task>
     <task id="LOCAL-00001" summary="Adding background image">
       <created>1499089751181</created>
@@ -684,11 +668,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499867882914</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Also added a lot of things.">
+      <created>1500019553535</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1500019553535</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140576000" />
+    <option name="totallyTimeSpent" value="140587000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -933,6 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,6 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
           <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
