@@ -13,5 +13,7 @@
 }
 
 .menu-btns:hover {
-    background: radial-gradient(#233237 30%, #252120 60%);
+    /*background: radial-gradient(#30474f 30%, #233237 70%);*/
+    border-top: 1px solid #eadfca;
+    border-bottom: 1px solid #eadfca;
 }
